@@ -24,7 +24,7 @@ var moment = require('moment');
 setInterval( function setup() {
   let sqlsss = "SELECT * FROM post_flags";
   connection.query(sqlsss, function (err, tagChangeRandom) {
-    teleAutoname("test","@bestshoppingdl",tagChangeRandom[0].kudart_token);
+    teleAutoname("test","@savekaroq",tagChangeRandom[0].kudart_token);
 
     console.log('tagChangeRandom: ', tagChangeRandom[0].tag_switch);
     var a = moment().utcOffset("+05:30").format("HH:mm");
